@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
     res.write('<head><title>HTTP Server</title><style type="text/css">body { font-family: sans-serif;}a{ text-decoration: none; color:#00bfff;}a:hover{ color: #A0A0A0;}</style></head>')
     res.write('<body>')
     res.write('<h1>Welcome to my Server Page</h1>')
-    res.write('<p>You can find all my code for this assignment here: <a href="https://github.com/jamesdesigns/HTTP-Server-JamesHooper" target="_blank">GitHub HTTP Server</a></p>')
+    res.write('<p>You can find all my code for this assignment here: <a href="https://github.com/jamesdesigns/HTTP-Server-JamesHooper" target="_blank">GitHub</a></p>')
     res.write('</body>')
     res.write('</html>')
     return res.end()
